@@ -1,0 +1,108 @@
+// LIBRE FRANKLIN BOLD
+%zillaSlab {
+	font-family: 'Zilla Slab';
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	@extend %zillaSlab;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+h1 {
+	font-size: 50px;
+	line-height: 1.15em;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.noMarginBottom > * {
+	margin-bottom: 0;
+}
+h2 {
+	font-size: 25px;
+	line-height: 1.15em;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+h3 {
+	font-size: 19px;
+	font-weight: bold;
+}
+p {
+	line-height: 1.5em;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+p:last-of-type {
+	margin-bottom: 0;
+}
+.text-align-center {
+	text-align: center;
+}
+.text-align-right {
+	text-align: right;
+}
+.innerContainer a {
+	color: $brandGreen;
+	transition: 0.25s ease-in-out;
+}
+.innerContainer a:hover {
+	transition: 0.25s ease-in-out;
+}
+ul {
+	padding-left: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul ~ p {
+	margin-top: 1em;
+}
+ul li {
+	margin-bottom: 15px;
+}
+ul li:last-of-type {
+	margin-bottom: 0;
+}
+.contact_info_home ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+// BLOCKQUOTE
+blockquote {
+	padding-left: 4em;
+    margin-left: -4em;
+	margin-right: 0;
+	margin-bottom: 0;
+    position: relative;
+	color: #666;
+	letter-spacing: -0.02em;
+}
+.blockQuoteAuthor {
+	font-size: 19px;
+	line-height: 1.5em;
+    display: block;
+}
+blockquote::before {
+	content: "\f10d";
+	content: "\201C";
+	position: absolute;
+	left: 0;
+	top: -15px;
+	font-size: 100px;
+}
+blockquote p {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 600;
+}
+
+// META DATA
+.date {
+	font-size: 13px;
+}

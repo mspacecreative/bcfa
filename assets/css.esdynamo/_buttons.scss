@@ -1,0 +1,81 @@
+.read_more, .learn_more {
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 25px;
+	background-color: $brandRed;
+	border: 1px solid $brandRed;
+	transition: 0.25s ease-in-out;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.innerContainer .read_more, .innerContainer .learn_more {
+	color: #fff;
+}
+.col_inner > .learn_more {
+	align-self: flex-start;
+}
+.button.light {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 0.25s ease-in-out;
+}
+.innerContainer a.dark {
+	color: #fff;
+}
+.read_more:hover, .learn_more:hover {
+	transition: 0.25s ease-in-out;
+	background-color: $brandGreen;
+	border: 1px solid $brandGreen;
+}
+.orange_bg .button.light {
+	color: $brandRed;
+}
+.blue_bg .button.light {
+	color: $brandGreen;
+}
+.navy_bg .button.light {
+	color: $brandGreen;
+}
+
+.navy_bg .button.light:hover, .orange_bg .button.light:hover, .blue_bg .button.light:hover {
+	background-color: transparent;
+	color: #fff;
+	transition: 0.25s ease-in-out;
+}
+.modal .button {
+	font-size: 13px;
+    padding: 0.5em 1em;
+	display: inline-block;
+	margin-top: -15px;
+	right: 80px;
+	top: 50%;
+	text-decoration: none;
+	position: absolute;
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.light {
+	/*border: 1px solid #fff;*/
+	color: #fff;
+}
+.externalLink::after {
+	content: '\f08e';
+	font-family: fontAwesome;
+	margin-left: 5px;
+}
+.nextSection a:hover, .ctaContainer a:hover, .nextSection a, .ctaContainer a {
+	transition: 0.25s ease-in-out;
+}
+.nextSection a:hover {
+	background-color: rgba(90, 150, 175, .75);
+}
+.ctaContainer a:hover {
+	color: rgba(90, 150, 175, .75);
+	transition: 0.25s ease-in-out;
+}
+// REMOVE OUTLINE WHEN USING MOUSE
+body.using-mouse :focus {
+	outline: none!important;
+} 
