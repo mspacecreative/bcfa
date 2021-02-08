@@ -4187,6 +4187,10 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		display: none;
 	}
 	
+	.header_bg_container {
+		top: -40px;
+	}
+	
 	.home footer {
 		position: relative;
 	}
