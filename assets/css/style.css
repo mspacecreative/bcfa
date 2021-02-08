@@ -4387,6 +4387,10 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		align-items: center;
 	}
 	
+	.nav li {
+		margin-left: 20px;
+	}
+	
 	.ghostVertStitchContainer {
 		margin: 0;
 		left: 2em;
