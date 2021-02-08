@@ -3185,6 +3185,10 @@ a {
 	text-decoration: none;
 }
 
+.col {
+	padding-bottom: 30px;
+}
+
 .page_bg_container {
 	position: absolute;
 	bottom: 0;
@@ -4181,6 +4185,19 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 @media (max-width: 980px) {
 	.socialMedia {
 		display: none;
+	}
+	
+	.home footer {
+		position: relative;
+	}
+	
+	.hero {
+		margin-top: 12em;
+		height: auto;
+	}
+	
+	.logo {
+		width: 120px;
 	}
 	
 	.socialMedia.inline {
