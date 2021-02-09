@@ -6,8 +6,12 @@
 	font-family: inherit;
 }
 
-.form_container p {
+.form_container p, .form_container p ~ p {
 	margin: 0;
+}
+
+.wpcf7-submit {
+	margin-top: 1rem;
 }
 
 .blue_bg {
