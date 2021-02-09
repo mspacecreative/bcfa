@@ -4378,6 +4378,10 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		padding-bottom: 0;
 	}
 	
+	.form_container .col:nth-last-of-type(3) {
+		padding-bottom: 1em;
+	}
+	
 	.tagline h1 {
 		letter-spacing: -0.03em;
 	}

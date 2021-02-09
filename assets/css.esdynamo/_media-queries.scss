@@ -163,6 +163,9 @@
   	.col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
 		padding-bottom: 0;
 	}
+	.form_container .col:nth-last-of-type(3) {
+		padding-bottom: 1em;
+	}
 	
 	.tagline h1 {
 		letter-spacing: -0.03em;
