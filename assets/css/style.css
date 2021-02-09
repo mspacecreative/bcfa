@@ -6,6 +6,10 @@
 	font-family: inherit;
 }
 
+.form_container p {
+	margin: 0;
+}
+
 .blue_bg {
 	background-color: #c3e0a6;
 }
@@ -1420,7 +1424,7 @@ body .fa, body .far, body .fas {
 	height: 100%;
 }
 
-.read_more, .learn_more {
+.read_more, .learn_more, .wpcf7-submit {
 	color: #fff;
 	padding: 10px 20px;
 	display: inline-block;
