@@ -4,10 +4,11 @@
 	font-size: 13px;
 	font-family: inherit;
 }
-.form_container p, .form_container p ~ p {
+.form_container p, .form_container ~ p {
 	margin: 0;
 }
 .form_container ~ p > .wpcf7-submit {
 	margin-top: 1rem;
 	font-size: 16px;
+	font-family: inherit;
 }
