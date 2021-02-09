@@ -31,6 +31,8 @@
 
 .home .bg_img img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .light_gradient_overlay {
@@ -47,7 +49,7 @@
     height: 100vh;
 }
 .heroContentBox {
-	background-color: $brandGreen;
+	background-color: $brandSage;
 	max-width: 65vw;
 	padding: 80px 130px;
 	position: relative;
@@ -73,7 +75,7 @@
 // SOCIAL MEDIA BUTTONS
 .home.page .socialMedia {
 	position: fixed;
-	background-color: $brandGreen;
+	background-color: $brandSage;
 	right: 0;
 	padding: 10px;
 	top: 50%;
@@ -83,7 +85,7 @@
 }
 .page .socialMedia {
 	position: fixed;
-	background-color: $brandGreen;
+	background-color: $brandSage;
 	right: 0;
 	padding: 10px;
 	top: 187px;
@@ -138,7 +140,7 @@
 	color: #fff;
 }
 .socialMedia ul li a {
-	color: $brandGreen;
+	color: $brandSage;
 	display: block;
 	line-height: 30px;
 	text-align: center;
@@ -155,7 +157,7 @@
 	color: #000;
 }
 .socialMedia.inline ul li:hover {
-	color: $brandGreen;
+	color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 body .fa,body .far,body .fas {

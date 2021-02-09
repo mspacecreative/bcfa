@@ -1,6 +1,11 @@
 // COLOURS
-$brandGreen: #618f5f;
-$brandRed: #e11a21;
+//#618f5f;
+$brandRed: #c03a39;
+$brandSage: #c3e0a6;
+$brandYellow: #faf8ce;
+
+// FORMS
+@import "_forms.scss";
 
 // CHECKER BOARD
 @import "_checker-board.scss";

@@ -2,7 +2,7 @@
 
 <div id="main-content">
 	<div class="innerContainer">
-	 	<h1><?php echo the_title(); ?></h1>
+	 	<h1 class="page_title"><?php echo the_title(); ?></h1>
 	</div>
 
 	<?php 

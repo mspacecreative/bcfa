@@ -1,3 +1,13 @@
+// LAYOUT
+.row.sidebar_layout {
+	margin-right: -3rem;
+	margin-left: -3rem;
+}
+.row.sidebar_layout > .col {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
 // CLEARFIX
 .clear::after {
 	display: table;
@@ -15,21 +25,21 @@ a {
 }
 
 .col {
-	padding-bottom: 30px;
+	padding-bottom: 1rem;
 }
 
 // PAGE BACKGROUND
-.page_bg_container {
+brandSage {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 50%;
     opacity: .5;
 }
-.home .page_bg_container {
+.home brandSage {
 	display: none;
 }
-.page_bg_container svg {
+brandSage svg {
 	position: relative;
     bottom: -5px;
 }
@@ -75,6 +85,8 @@ a {
 	max-width: 100%;
 	height: auto;
 	width: 100%;
+	position: relative;
+    left: -10px;
 }
 
 .tagline {
@@ -204,10 +216,10 @@ footer {
 	background-size: cover;
 	background-color: rgba(0,0,0,0.05);
 	width: 100%;
-	border-bottom: 10px solid $brandGreen;
+	border-bottom: 10px solid $brandSage;
 }
 html {
-	background-color: $brandGreen;
+	background-color: $brandSage;
 }
 body {
 	background-color: #fff;
@@ -226,6 +238,16 @@ footer::before {
 }
 footer p {
 	font-size: 14px;
+}
+.page_bg_container {
+	position: absolute;
+	bottom: -3px;
+	right: 0;
+	width: 45%;
+	opacity: .5;
+}
+.home .page_bg_container {
+	display: none;
 }
 .home footer p {
 	color: #fff;

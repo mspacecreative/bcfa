@@ -26,17 +26,18 @@
 }
 .read_more:hover, .learn_more:hover {
 	transition: 0.25s ease-in-out;
-	background-color: $brandGreen;
-	border: 1px solid $brandGreen;
+	background-color: $brandSage;
+	border: 1px solid $brandSage;
+	color: #555;
 }
 .orange_bg .button.light {
 	color: $brandRed;
 }
 .blue_bg .button.light {
-	color: $brandGreen;
+	color: $brandSage;
 }
 .navy_bg .button.light {
-	color: $brandGreen;
+	color: $brandSage;
 }
 
 .navy_bg .button.light:hover, .orange_bg .button.light:hover, .blue_bg .button.light:hover {

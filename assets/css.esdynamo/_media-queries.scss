@@ -159,6 +159,11 @@
 }
 
 @media (max-width: 1024px) {
+	.col:nth-child(2n+1):nth-last-child(-n+2),
+  	.col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+		padding-bottom: 0;
+	}
+	
 	.tagline h1 {
 		letter-spacing: -0.03em;
 	}
@@ -828,9 +833,10 @@
 	}
 }
 
-@media (min-width: 1024px) and (orientation: portrait) {
-	.launching-soon {
-		bottom: -35px;
+@media (min-width: 1025px) {
+	.col:nth-child(3n+1):nth-last-child(-n+3),
+  	.col:nth-child(3n+1):nth-last-child(-n+3) ~ .col {
+		padding-bottom: 0;
 	}
 }
 @media (max-width: 1024px) and (orientation: portrait) {

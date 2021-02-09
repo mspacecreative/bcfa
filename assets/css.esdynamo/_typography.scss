@@ -20,6 +20,9 @@ h1 {
 	font-weight: 300;
 	margin-bottom: 25px;
 }
+.page_title {
+	margin-bottom: 0;
+}
 .noMarginBottom > * {
 	margin-bottom: 0;
 }
@@ -48,7 +51,7 @@ p:last-of-type {
 	text-align: right;
 }
 .innerContainer a {
-	color: $brandGreen;
+	color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 .innerContainer a:hover {

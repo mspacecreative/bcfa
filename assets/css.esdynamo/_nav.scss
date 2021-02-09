@@ -191,7 +191,7 @@ html.menOpen, body.menuOpen {
 .menuToggle:hover .hamburger.is-active .hamburger-inner,
 .menuToggle:hover .hamburger.is-active .hamburger-inner::before, 
 .menuToggle:hover .hamburger.is-active .hamburger-inner::after {
-	background-color: $brandGreen;
+	background-color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 .hamburger-inner {
@@ -213,7 +213,7 @@ html.menOpen, body.menuOpen {
 }
 
 .nav a {
-	color: $brandGreen;
+	color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 .downArrow, 
@@ -225,11 +225,11 @@ html.menOpen, body.menuOpen {
 	transition: 0.25s ease-in-out;
 }
 .nav a:hover {
-	color: $brandGreen;
+	color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 .nav a:hover .downArrow, .nav a:hover .downArrow::after, .nav a:hover .downArrow::before {
-	background-color: $brandGreen;
+	background-color: $brandSage;
 	transition: 0.25s ease-in-out;
 }
 .menuContainer .downloadFinancials a {
@@ -286,8 +286,8 @@ html.menOpen, body.menuOpen {
 
 .at-style-responsive .at-share-btn {
     border-radius: 50px!important;
-	background-color: $brandGreen!important;
-	border: 1px solid $brandGreen!important;
+	background-color: $brandSage!important;
+	border: 1px solid $brandSage!important;
 	transition: 0.25s ease-in-out;
 	width: 30px!important;
 	height: 30px!important;
@@ -310,7 +310,7 @@ span.at-icon-wrapper  {
 	background-color: transparent!important;
 }
 .at-resp-share-element .at-share-btn:hover .at-icon-wrapper svg {
-	fill: $brandGreen!important;
+	fill: $brandSage!important;
 	transition: 0.25s ease-in-out;
 }
 
