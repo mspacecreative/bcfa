@@ -10,8 +10,9 @@
 	margin: 0;
 }
 
-.wpcf7-submit {
+.form_container .wpcf7-submit {
 	margin-top: 1rem;
+	font-size: 16px;
 }
 
 .blue_bg {
