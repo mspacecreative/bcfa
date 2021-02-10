@@ -16,6 +16,50 @@
 	font-family: inherit;
 }
 
+.inline {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.inline .read_more {
+	margin-top: 0;
+}
+
+.details-title {
+	color: #555;
+}
+
+.cardContainer {
+	padding: 2em;
+	box-shadow: 0 0 15px #d9d9d9;
+	border-radius: 15px;
+	background-color: #fff;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.home .cardContainer, .home .colInner {
+	padding: 0;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #fff;
+	height: auto;
+	display: block;
+}
+
+.colInner {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.cardContainer .inline {
+	margin-top: auto;
+}
+
 .blue_bg {
 	background-color: #c3e0a6;
 }
@@ -1292,7 +1336,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 .hero {
 	display: flex;
 	align-items: center;
-	height: 100vh;
+	padding: 12em 0 0;
 }
 
 .heroContentBox {
@@ -3399,9 +3443,6 @@ brandSage svg {
 }
 
 .home footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), transparent);
 }
 

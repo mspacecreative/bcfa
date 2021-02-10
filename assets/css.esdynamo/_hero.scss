@@ -46,7 +46,8 @@
 .hero {
 	display: flex;
     align-items: center;
-    height: 100vh;
+    //height: 100vh;
+	padding: 12em 0 0;
 }
 .heroContentBox {
 	background-color: $brandSage;
