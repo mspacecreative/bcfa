@@ -1,6 +1,6 @@
 <?php 
 $args = array(
-	'post_type' => 'news',
+	'post_type' => 'posts',
 	'posts_per_page' => 1,
 );
 	
