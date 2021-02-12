@@ -139,6 +139,8 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	opacity: 0;
 	visibility: hidden;
 	transition: 0.5s ease-in-out;
+	display: flex;
+	align-items: center;
 }
 .menuOpen .menuContainer {
 	opacity: 1;
@@ -173,6 +175,7 @@ html.menOpen, body.menuOpen {
 }
 .menuInner {
 	padding: 5em 2em;
+	width: 100%;
 }
 .menuInner > ul:first-of-type {
 	padding: 0;

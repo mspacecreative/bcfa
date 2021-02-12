@@ -3824,6 +3824,8 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	opacity: 0;
 	visibility: hidden;
 	transition: 0.5s ease-in-out;
+	display: flex;
+	align-items: center;
 }
 
 .menuOpen .menuContainer {
@@ -3861,6 +3863,7 @@ html.menOpen, body.menuOpen {
 
 .menuInner {
 	padding: 5em 2em;
+	width: 100%;
 }
 
 .menuInner > ul:first-of-type {
@@ -4922,10 +4925,6 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		bottom: -7px;
 	}
 	
-	.menuContainer {
-		top: 104px;
-	}
-	
 	.videoOverlay a::after {
 		width: 42px;
 		height: 42px;
@@ -5183,10 +5182,6 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 	
 	.hamburger-inner::after {
 		bottom: -7px;
-	}
-	
-	.menuContainer {
-		top: 104px;
 	}
 	
 	.videoOverlay a::after {

@@ -12,6 +12,7 @@
 		<div class="menuInner light">
 			<?php 
 			echo dns_nav();
+			get_template_part('templates/social-media-buttons');
 			?>
 		</div>
 	</div>
