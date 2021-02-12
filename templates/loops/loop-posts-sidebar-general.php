@@ -10,7 +10,8 @@ if ( $loop->have_posts() ) : ?>
 
 <ul class="sidebar_post_list">
 
-	<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+	<?php while ( $loop->have_posts() ) : $loop->the_post();
+	$newsletter = in_category('newsletter'); ?>
 	
 	<li>
 		<!-- post title -->
@@ -25,7 +26,12 @@ if ( $loop->have_posts() ) : ?>
 		</p>
 		<!-- /post details -->
 		
+		<?php if ( $newsletter ): ?>
+		<a class="read_more" href="<?php the_permalink(); ?>"><?php esc_html_e('View newsletter', 'bcfa'); ?></a>
+		<?php else : ?>
 		<a class="read_more" href="<?php the_permalink(); ?>"><?php esc_html_e('Read post', 'bcfa'); ?></a>
+		<?php endif; ?>
+		
 	</li>
 	
 	<?php endwhile; ?>
