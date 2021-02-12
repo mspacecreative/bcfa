@@ -1,3 +1,11 @@
+// SINGLE POST
+.single_post_content .innerContainer {
+	padding: 0;
+}
+.single_post_content .innerContainer p a {
+	color: $brandRed;
+}
+
 // LAYOUT
 .row.sidebar_layout {
 	margin-right: -3rem;

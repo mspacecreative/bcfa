@@ -3235,6 +3235,14 @@ figcaption {
 	cursor: pointer;
 }
 
+.single_post_content .innerContainer {
+	padding: 0;
+}
+
+.single_post_content .innerContainer p a {
+	color: #c03a39;
+}
+
 .row.sidebar_layout {
 	margin-right: -3rem;
 	margin-left: -3rem;

@@ -7,7 +7,7 @@ get_header(); ?>
 	</div>
 	
 	<div class="innerContainer">
-		<div class="row sidebar_layout">
+		<div class="row sidebar_layout single_post_content">
 	
 		<?php 
 		if ( have_posts() ) {
