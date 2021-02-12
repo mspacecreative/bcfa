@@ -2206,6 +2206,7 @@ blockquote p {
 
 .sidebar_post_list {
 	list-style: none;
+	padding: 0;
 }
 
 .home_img {

@@ -25,7 +25,7 @@ if ( $loop->have_posts() ) : ?>
 		</p>
 		<!-- /post details -->
 		
-		<a class="read_more" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more', 'bcfa'); ?></a>
+		<a class="read_more" href="<?php the_permalink(); ?>"><?php esc_html_e('Read post', 'bcfa'); ?></a>
 	</li>
 	
 	<?php endwhile; ?>
