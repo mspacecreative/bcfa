@@ -10,14 +10,17 @@ while ( $loop->have_posts() ) : $loop->the_post();
 
 $title = get_the_title();
 $date = get_the_date();
-$blurb = get_the_excerpt(); ?>
+$blurb = html5wp_excerpt('html5wp_index'); ?>
 
 <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
 	<div class="col_inner">
-		<h2><?php echo $title ?></h2>
+		<h2><?php echo __('News'); ?></h2>
+		<h3><?php echo $title ?></h3>
 		<p class="date"><?php echo $date ?></p>
 		<p class="excerpt"><?php echo $blurb ?></p>
-		<a class="read_more" href="<?php echo the_permalink(); ?>"><?php echo __('Read more'); ?></a>
+		<p class="inline">
+			<a class="read_more" href="<?php echo the_permalink(); ?>"><?php echo __('Read more'); ?></a>
+		</p>
 	</div>
 </div>
 
