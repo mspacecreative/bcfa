@@ -2,7 +2,8 @@
 $args = array(
 	'post_type' => 'post',
 	'posts_per_page' => 5, 
-	'post__not_in' => array($post->ID) ) );
+	'post__not_in' => array($post->ID)
+);
 
 $loop = new WP_Query( $args );
 if ( $loop->have_posts() ) : ?>
