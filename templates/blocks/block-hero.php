@@ -31,7 +31,9 @@
 						<ul>
 							<li><?php echo __('Email: '); ?><a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></li>
 						</ul>
-						<a class="learn_more" href="<?php echo home_url('contact-us'); ?>"><?php echo __('More details'); ?></a>
+						<p class="inline">
+							<a class="learn_more" href="<?php echo home_url('contact-us'); ?>"><?php echo __('More details'); ?></a>
+						</p>
 						<?php endif; ?>
 					</div>
 				</div>
