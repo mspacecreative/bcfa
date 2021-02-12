@@ -140,7 +140,6 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	visibility: hidden;
 	transition: 0.5s ease-in-out;
 	display: flex;
-	align-items: center;
 }
 .menuOpen .menuContainer {
 	opacity: 1;

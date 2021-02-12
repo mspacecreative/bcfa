@@ -1455,7 +1455,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 	transition: 0.25s ease-in-out;
 }
 
-.home .socialMedia.inline ul li {
+.home .socialMedia.inline ul li, .menuOverlay .socialMedia.inline ul li {
 	background-color: #fff;
 	border-color: #fff;
 }
@@ -1465,6 +1465,10 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 	border-color: #c03a39;
 	margin: 0 15px 0 0;
 	color: #fff;
+}
+
+.menuOverlay .socialMedia.inline ul li a > i {
+	color: #333;
 }
 
 .socialMedia ul li a {
@@ -3825,7 +3829,6 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	visibility: hidden;
 	transition: 0.5s ease-in-out;
 	display: flex;
-	align-items: center;
 }
 
 .menuOpen .menuContainer {
