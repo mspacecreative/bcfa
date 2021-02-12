@@ -82,7 +82,7 @@
 	background-color: #fff;
 }
 
-.news .col {
+.news .col, .cards .col {
 	padding-bottom: 2em;
 }
 
