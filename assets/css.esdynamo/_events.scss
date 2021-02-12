@@ -26,6 +26,8 @@
 	background-color: #fff;
 	height: auto;
     display: block;
+	display: flex;
+    height: 100%;
 }
 .colInner {
 	display: flex;
@@ -37,8 +39,4 @@
 }
 .home .cards {
 	height: 100%;
-}
-.home .cards .cardContainer {
-	height: 100%;
-	display: flex;
 }
