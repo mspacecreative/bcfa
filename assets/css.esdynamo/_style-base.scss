@@ -4,6 +4,12 @@
 }
 .single_post_content .innerContainer p a {
 	color: $brandRed;
+	text-decoration: underline;
+}
+.single_post_content .innerContainer p a.read_more {
+	color: #fff;
+	margin-top: 0;
+    margin-bottom: 1em;
 }
 
 // LAYOUT
