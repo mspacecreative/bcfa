@@ -57,3 +57,14 @@
 .news .col, .cards .col {
 	padding-bottom: 2em;
 }
+.row.cards {
+	margin-right: -1rem;
+	margin-left: -1rem;
+}
+.row.cards > .col {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+p.display-medium-date-read:last-of-type {
+	margin-bottom: 30px;
+}
