@@ -69,7 +69,11 @@
 .sidebar .cards .col {
 	flex: 0 0 100%;
 	max-width: 100%;
-	padding-bottom: 1em;
+	padding-bottom: 2em !important;
+}
+
+.sidebar .cards .col:last-of-type {
+	padding-bottom: 0 !important;
 }
 
 .blue_bg {
