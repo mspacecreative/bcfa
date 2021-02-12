@@ -3531,6 +3531,10 @@ footer {
 	border-bottom: 10px solid #c3e0a6;
 }
 
+.home footer .innerContainer .copyright a {
+	color: #fff;
+}
+
 html {
 	background-color: #c3e0a6;
 }
