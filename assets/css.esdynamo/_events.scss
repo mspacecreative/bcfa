@@ -35,3 +35,10 @@
 .cardContainer .inline {
 	margin-top: auto;
 }
+.home .cards {
+	height: 100%;
+}
+.home .cards .cardContainer {
+	height: 100%;
+	display: flex;
+}

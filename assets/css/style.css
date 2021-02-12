@@ -60,6 +60,15 @@
 	margin-top: auto;
 }
 
+.home .cards {
+	height: 100%;
+}
+
+.home .cards .cardContainer {
+	height: 100%;
+	display: flex;
+}
+
 .blue_bg {
 	background-color: #c3e0a6;
 }
