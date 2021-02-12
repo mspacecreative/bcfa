@@ -66,6 +66,12 @@
 	height: 100%;
 }
 
+.sidebar .cards .col {
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding-bottom: 1em;
+}
+
 .blue_bg {
 	background-color: #c3e0a6;
 }
@@ -4458,6 +4464,10 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 @media (max-width: 1024px) {
 	.col:nth-child(2n+1):nth-last-child(-n+2), .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
 		padding-bottom: 0;
+	}
+	
+	.sidebar {
+		margin-top: 50px;
 	}
 	
 	.form_container .col:nth-last-of-type(3) {

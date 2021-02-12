@@ -169,6 +169,9 @@
   	.col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
 		padding-bottom: 0;
 	}
+	.sidebar {
+		margin-top: 50px;
+	}
 	.form_container .col:nth-last-of-type(3) {
 		padding-bottom: 1em;
 	}
