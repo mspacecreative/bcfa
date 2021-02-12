@@ -2204,6 +2204,10 @@ blockquote p {
 	font-size: 15px;
 }
 
+.sidebar_post_list {
+	list-style: none;
+}
+
 .home_img {
 	border-radius: 10px;
 	margin-bottom: 1em;

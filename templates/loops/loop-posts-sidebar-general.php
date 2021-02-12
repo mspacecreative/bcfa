@@ -15,17 +15,17 @@ if ( $loop->have_posts() ) : ?>
 	<li>
 		<!-- post title -->
 		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-			<h4 class="darkHeading"><?php the_title(); ?></h4>
+			<h3 class="darkHeading"><?php the_title(); ?></h3>
 		</a>
 		<!-- /post title -->
 		
 		<!-- post details -->
-		<h5 class="date">
-			<?php echo the_time( 'F j, Y' ); ?><?php esc_html_e(' &nbsp;| &nbsp;'); ?><?php the_category(', '); ?>
-		</h5>
+		<p class="date">
+			<?php echo the_time( 'F j, Y' ); ?>
+		</p>
 		<!-- /post details -->
 		
-		<a class="readMore" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more', 'osp'); ?></a>
+		<a class="read_more" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more', 'bcfa'); ?></a>
 	</li>
 	
 	<?php endwhile; ?>
