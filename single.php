@@ -1,6 +1,5 @@
 <?php
-/* Template Name: Page with Sidebar */
- get_header(); ?>
+get_header(); ?>
 
 <div id="main-content">
 	<div class="innerContainer">
