@@ -2057,10 +2057,6 @@ h1 {
 	margin-bottom: 25px;
 }
 
-.page_title {
-	margin-bottom: 0;
-}
-
 .noMarginBottom > * {
 	margin-bottom: 0;
 }
@@ -3248,6 +3244,11 @@ figcaption {
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.single_post_content .innerContainer p a.read_more:hover {
+	color: #555;
 }
 
 .row.sidebar_layout {
