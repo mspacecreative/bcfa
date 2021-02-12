@@ -13,7 +13,7 @@ get_header(); ?>
 		if ( have_posts() ) {
 			while ( have_posts() ) {
 			echo '
-			<div class="col col-lg-9 col-md-9 col-sm-12 col-xs-12 bottomMarginMobile">';
+			<div class="col col-lg-8 col-md-8 col-sm-12 col-xs-12 bottomMarginMobile">';
 				the_post();
 				the_content();
 			echo '
