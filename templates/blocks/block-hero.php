@@ -18,7 +18,7 @@
 						<h2><?php echo __('Contact Us'); ?></h2>
 						<?php
 						$img = get_template_directory_uri() . '/assets/img/placeholders/farming-image.jpg';
-						echo '<img src="' . $img . '" alt="Brant County Federation of Agriculture">';
+						echo '<img class="home_img" src="' . $img . '" alt="Brant County Federation of Agriculture">';
 						$phone = get_field('phone_number', 'options');
 						$email = get_field('email_address', 'options');
 						if ( $phone && $email ): ?>

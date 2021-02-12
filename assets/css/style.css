@@ -2155,6 +2155,11 @@ blockquote p {
 	font-size: 15px;
 }
 
+.home_img {
+	border-radius: 10px;
+	margin-bottom: 1em;
+}
+
 img {
 	display: block;
 	max-width: 100%;
