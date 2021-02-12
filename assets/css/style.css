@@ -3235,7 +3235,7 @@ figcaption {
 	padding: 0;
 }
 
-.single_post_content .innerContainer p a {
+.single_post_content .innerContainer p a, .single_post_content .innerContainer ul a {
 	color: #c03a39;
 	text-decoration: underline;
 }

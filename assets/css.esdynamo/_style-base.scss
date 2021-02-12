@@ -2,7 +2,7 @@
 .single_post_content .innerContainer {
 	padding: 0;
 }
-.single_post_content .innerContainer p a {
+.single_post_content .innerContainer p a, .single_post_content .innerContainer ul a {
 	color: $brandRed;
 	text-decoration: underline;
 }
