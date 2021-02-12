@@ -14,7 +14,7 @@ if ( $loop->have_posts() ) : ?>
 	$title = get_the_title();
 	$date = get_the_date();
 	$blurb = get_the_excerpt();
-	$newsletter = is_category('newsletter'); ?>
+	$newsletter = in_category('newsletter'); ?>
 	
 	<div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
 		<div class="col_inner">
