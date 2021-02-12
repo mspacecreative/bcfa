@@ -2,6 +2,9 @@
 .single_post_content .innerContainer {
 	padding: 0;
 }
+.innerContainer a.read_more, .innerContainer a.learn_more {
+	text-decoration: none;
+}
 .single_post_content .innerContainer p a, .single_post_content .innerContainer ul a {
 	color: $brandRed;
 	text-decoration: underline;
