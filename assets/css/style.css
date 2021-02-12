@@ -1413,11 +1413,15 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 	border: 1px solid #fff;
 	height: 30px;
 	width: 30px;
-	margin: 15px;
+	margin-left: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.25s ease-in-out;
+}
+
+.page .socialMedia {
+	margin: 0;
 }
 
 .socialMedia ul li:hover {
