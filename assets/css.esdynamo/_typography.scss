@@ -45,7 +45,8 @@ p:last-of-type {
 	text-align: right;
 }
 .innerContainer a {
-	color: $brandSage;
+	color: $brandRed;
+	text-decoration: underline;
 	transition: 0.25s ease-in-out;
 }
 .innerContainer a:hover {

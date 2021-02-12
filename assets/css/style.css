@@ -2089,7 +2089,8 @@ p:last-of-type {
 }
 
 .innerContainer a {
-	color: #c3e0a6;
+	color: #c03a39;
+	text-decoration: underline;
 	transition: 0.25s ease-in-out;
 }
 
@@ -4294,6 +4295,14 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		display: none;
 	}
 	
+	.inline ~ .inline {
+		margin-top: 15px;
+	}
+	
+	.hero {
+		padding: 0;
+	}
+	
 	.header_bg_container {
 		top: -40px;
 	}
@@ -4504,6 +4513,11 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		padding: 50px 0;
 		display: flex;
 		align-items: center;
+	}
+	
+	.col {
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 	
 	.nav li {
