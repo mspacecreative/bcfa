@@ -1,4 +1,8 @@
+<!-- MOBILE NAV -->
+	<?php get_template_part('templates/mobile-menu'); ?>
+	<!-- / MOBILE NAV -->
 <!-- header -->
+
 <header id="header" class="header clear" role="banner">
 	<div class="header_bg_container">
 		<?php include 'includes/header-bg.php'; ?>

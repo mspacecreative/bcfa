@@ -18,6 +18,32 @@
 		});
 		*/
 		
+		var 
+		menuOverlay = $('.menuOverlay'),
+		clientOverlay = $('.clientsContainer'),
+		hamburgerIcon = $('.hamburger'),
+		header = $('header');
+		function toggleMenu() {
+			$('body').toggleClass('menuOpen');
+			
+			hamburgerIcon.toggleClass('is-active');
+			
+			header.toggleClass('is-active');
+			
+			menuOverlay.fadeToggle('fast');
+		}
+		
+		// MOBILE MENU
+		$('.hamburger').click(function() {
+			toggleMenu();
+		});
+		
+		/*
+		$('.menuInner .menu-item a').click(function() {
+			toggleMenu();
+		});
+		*/
+		
 		// CHANGE FADE IN DIRECTION ON IMAGE
 		if ( $('.row').hasClass('reverse') ) {
 			var reversedFadeIn = $('.reverse img');

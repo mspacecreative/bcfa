@@ -27,7 +27,7 @@
 		margin-right: 15%;
 		display: block;
 	}
-	.mobileOnly {
+	.mobileOnly, .hamburger {
 		display: none;
 	}
 	.infoGraphicContainer {
@@ -37,7 +37,7 @@
 }
 
 @media (max-width: 980px) {
-	.socialMedia {
+	.socialMedia, .nav {
 		display: none;
 	}
 	.inline ~ .inline {
@@ -364,9 +364,6 @@
 	    bottom: 0;
 	    height: 8px;
 	}
-	.hamburger {
-	    top: -18px;
-	}
 	footer .row .col:last-of-type {
 	   align-self: flex-start;
 	}
@@ -575,9 +572,6 @@
 	.menuContents .downArrow::before, .menuContents .downArrow::after {
 	    bottom: 0;
 	    height: 8px;
-	}
-	.hamburger {
-	    top: -18px;
 	}
 	footer .row .col:last-of-type {
 	   align-self: flex-start;

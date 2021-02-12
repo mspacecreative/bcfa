@@ -24,10 +24,6 @@
 		
 		<div class="light_gradient_overlay"></div>
 		
-		<!-- MOBILE NAV -->
-		<?php get_template_part('templates/menu'); ?>
-		<!-- / MOBILE NAV -->
-		
 		<!-- SOCIAL MEDIA BUTTONS
 		<?php get_template_part('templates/social-media-buttons'); ?> -->
 		
