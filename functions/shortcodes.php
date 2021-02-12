@@ -6,3 +6,11 @@ function loopPages() {
 	return ob_get_clean();
 }
 add_shortcode( 'loop_pages', 'loopPages' );
+
+// LOOP NEWS
+function loopNews() {
+	ob_start();
+		get_template_part('templates/loops/loop-news');
+	return ob_get_clean();
+}
+add_shortcode( 'news_feed', 'loopNews' );

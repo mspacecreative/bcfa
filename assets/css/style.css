@@ -2058,7 +2058,7 @@ table {
 	border-spacing: 0;
 }
 
-.menuContents .nav .sub-menu a, .menuContents h3, .menuContainer h1, .nav li a, body, .heroContentBox h1 {
+.menuContents .nav .sub-menu a, .menuContents h3, .menuContainer h1, .innerContainer .nav li a, body, .heroContentBox h1 {
 	font-family: 'Zilla Slab';
 	font-weight: 400;
 	font-style: normal;
@@ -3716,8 +3716,9 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	margin-left: 50px;
 }
 
-.nav li a {
+.innerContainer .nav li a {
 	color: #000;
+	text-decoration: none;
 }
 
 .menuToggle a, .downloadFinancials a {

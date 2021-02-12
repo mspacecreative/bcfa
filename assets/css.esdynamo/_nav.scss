@@ -42,9 +42,10 @@ header.down ~ .wrapper, header.up ~ .wrapper {
 	display: inline-block;
 	margin-left: 50px;
 }
-.nav li a {
+.innerContainer .nav li a {
 	@extend %zillaSlab;
 	color: #000;
+	text-decoration: none;
 }
 .menuToggle a, .downloadFinancials a {
 	position: relative;
