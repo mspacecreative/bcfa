@@ -14,3 +14,11 @@ function loopNews() {
 	return ob_get_clean();
 }
 add_shortcode( 'news_feed', 'loopNews' );
+
+// LOOP POSTS IN SIDEBAR
+function loopNewsSidebar() {
+	ob_start();
+		get_template_part('templates/loops/loop-posts-sidebar-general');
+	return ob_get_clean();
+}
+add_shortcode( 'recent_posts_sidebar', 'loopNewsSidebar' );
