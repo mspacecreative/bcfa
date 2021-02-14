@@ -4507,10 +4507,6 @@ src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/s
 		animation-delay: 700ms;
 	}
 	
-	.menuInner > ul:first-of-type li {
-		margin-bottom: 50px;
-	}
-	
 	.sub-menu > .menu-item {
 		animation: none;
 		opacity: 1;
