@@ -18,6 +18,8 @@
 	height: 100%;
     display: flex;
     flex-direction: column;
+	position: relative;
+	overflow: hidden;
 }
 .home .cardContainer, .home .colInner {
 	padding: 0;
@@ -67,4 +69,21 @@
 }
 p.display-medium-date-read:last-of-type, .display-medium-date-read {
 	margin-bottom: 30px;
+}
+
+.statusLabel {
+	position: absolute;
+    bottom: -45px;
+    right: -72px;
+    width: 165px;
+    transform: rotate(-45deg);
+    transform-origin: 0;
+    background-color: $brandSage;
+    color: #fff;
+    text-align: center;
+}
+.statusLabel > p {
+	padding: 10px;
+	margin-top: 0;
+	color: #333;
 }
