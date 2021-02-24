@@ -16,6 +16,14 @@
 	font-family: inherit;
 }
 
+.grecaptcha-badge {
+	display: none;
+}
+
+.contact-us .grecaptcha-badge {
+	display: block;
+}
+
 .inline {
 	display: inline-block;
 	margin-right: 20px;

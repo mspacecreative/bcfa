@@ -12,3 +12,10 @@
 	font-size: 16px;
 	font-family: inherit;
 }
+
+.grecaptcha-badge {
+	display: none;
+}
+.contact-us .grecaptcha-badge {
+	display: block;
+}
