@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			
-			<?php echo get_sidebar();
+			<?php echo get_sidebar('category');
 			
 			endwhile; ?>
 		

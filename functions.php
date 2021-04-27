@@ -144,8 +144,8 @@ function remove_width_attribute( $html ) {
 if ( function_exists( 'register_sidebar' ) ) {
     // Define Sidebar Widget Area 1
     register_sidebar( array(
-        'name'          => esc_html( 'News Sidebar', 'html5blank' ),
-        'description'   => esc_html( 'Sidebar widgets for news page...', 'html5blank' ),
+        'name'          => esc_html( 'News Sidebar', 'bcfa' ),
+        'description'   => esc_html( 'Sidebar widgets for news page...', 'bcfa' ),
         'id'            => 'widget-area-1',
         'before_widget' => '<div id="%1$s" class="%2$s">',
         'after_widget'  => '</div>',
@@ -155,9 +155,20 @@ if ( function_exists( 'register_sidebar' ) ) {
 
     // Define Sidebar Widget Area 2
     register_sidebar( array(
-        'name'          => esc_html( 'Events Sidebar', 'html5blank' ),
-        'description'   => esc_html( 'Sidebar widgets for events page...', 'html5blank' ),
+        'name'          => esc_html( 'Events Sidebar', 'bcfa' ),
+        'description'   => esc_html( 'Sidebar widgets for events page...', 'bcfa' ),
         'id'            => 'widget-area-2',
+        'before_widget' => '<div id="%1$s" class="%2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ) );
+    
+    // Define Category Sidebar
+    register_sidebar( array(
+        'name'          => esc_html( 'Category Sidebar', 'bcfa' ),
+        'description'   => esc_html( 'Sidebar widgets for category index page...', 'bcfa' ),
+        'id'            => 'category-sidebar',
         'before_widget' => '<div id="%1$s" class="%2$s">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
