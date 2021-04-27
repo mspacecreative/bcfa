@@ -3342,6 +3342,14 @@ figcaption {
 	color: #555;
 }
 
+.sidebar-widget > div {
+	margin-bottom: 50px;
+}
+
+.sidebar-widget > div:last-of-type {
+	margin-bottom: 0;
+}
+
 .row.sidebar_layout {
 	margin-right: -3rem;
 	margin-left: -3rem;
