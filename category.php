@@ -6,18 +6,12 @@
 	</div>
 	
 	<?php 
-	$args = array(
-		'post_type' => 'post',
-		'posts_per_page' => -1,
-	);
-	
-	$loop = new WP_Query( $args );
-	if ( $loop->have_posts() ) : ?>
+	if ( have_posts() ) : ?>
 	
 	<div class="innerContainer">
 		<div class="row sidebar_layout cards">
 			
-			<?php while ( $loop->have_posts() ) : $loop->the_post();
+			<?php while ( have_posts() ) : the_post();
 	
 			$title = get_the_title();
 			$date = get_the_date();
@@ -48,7 +42,7 @@
 		</div>
 	</div>
 	
-	<?php endif; wp_reset_postdata(); ?>
+	<?php endif; ?>
 
 </div>
 
