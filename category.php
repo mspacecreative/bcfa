@@ -11,14 +11,15 @@
 	<div class="innerContainer">
 		<div class="row sidebar_layout cards">
 			
-			<?php while ( have_posts() ) : the_post();
-	
-			$title = get_the_title();
-			$date = get_the_date();
-			$blurb = get_the_excerpt();
-			$newsletter = in_category('newsletter'); ?>
-			
 			<div class="col col-lg-8 col-md-8 col-sm-6 col-xs-12 row">
+				
+				<?php while ( have_posts() ) : the_post();
+	
+				$title = get_the_title();
+				$date = get_the_date();
+				$blurb = get_the_excerpt();
+				$newsletter = in_category('newsletter'); ?>
+				
 				<div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					<div class="col_inner">
 						<h3 style="margin-bottom: 0;"><?php echo $title ?></h3>
@@ -33,11 +34,12 @@
 						</p>
 					</div>
 				</div>
+				
+				<?php endwhile; ?>
+				
 			</div>
 			
-			<?php echo get_sidebar('category');
-			
-			endwhile; ?>
+			<?php echo get_sidebar('category'); ?>
 		
 		</div>
 	</div>
